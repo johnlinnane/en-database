@@ -1,0 +1,81 @@
+
+
+<!DOCTYPE html>
+<html>
+  
+  <head>
+
+		<style type="text/css">
+				body {
+					background-color: black; 
+					color: white; 
+					text-align: center;
+					font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+					font-size: 18px;
+				}
+				table {
+						margin-top: 25px;
+						margin-bottom: 25px;
+				}
+				td {
+						padding: 0px;
+				}
+				img {
+						padding: 40px;
+				}
+				#buttonpad {
+						margin: 40px;
+				}
+				th {
+						text-align: center;
+				}
+		</style>
+    <title>Einsturzende Neubauten Album Search</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+  </head>
+
+	<body>
+
+
+		<h1>Welcome to the Einsturzende Neubauten album search website!</h1>
+		
+		
+		<img src="EN.jpg" alt="Einsturzende Naubauten Live">
+
+		<FORM method="post" action="proc.php" >
+
+    <table align="center">
+		<tr>
+		<td align="center" colspan="2"><p>Please enter some search terms:</p></td>
+		</tr>		
+				
+		<tr>
+		<td align="left"><p>Title</p></td>
+		<td><input type="text" id="searchName" name="searchName"></td>
+		</tr>
+
+		<tr>
+		<td align="left"><p>Year</p></td>
+		<td><input type="text" id="searchYear" name="searchYear"></td>
+		</tr>
+		
+		<tr>
+		<td align="left"><p>Label</p></td>
+    <td><input type="text" id="searchLabel" name="searchLabel"></td>
+		</tr>
+    </table>
+
+    <br>
+    <input type="submit" id="searchAll" name="searchAll" value="Search">
+    <input type="submit" name="showAll"  value="Show All">
+     
+
+
+
+		</form>
+ 
+  <body>
+
+
+</html>
