@@ -6,4 +6,4 @@ PHP, MySQL, HTML
 
 ## Description
 
-Simple searchable database, incorporating MySQL and PHP.
+Simple searchable database, incorporating MySQL and PHP. Incorporates various sorting algorithms and database querying.
